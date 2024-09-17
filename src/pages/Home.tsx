@@ -7,6 +7,12 @@ const Home = () => {
         <img src="/logo.png" alt="logo target sistemas" />
         <div className="flex flex-col gap-10">
           <Link
+            to="/exercise/sum"
+            className="w-full rounded bg-red-900 p-4 px-16 text-white"
+          >
+            Exercicio 1
+          </Link>
+          <Link
             to="/exercise/fibonacci"
             className="w-full rounded bg-red-900 p-4 px-16 text-white"
           >

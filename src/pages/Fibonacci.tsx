@@ -36,8 +36,8 @@ const Fibonacci = () => {
         <h1 className="text-4xl font-semibold">Questão 2 - Sequência de Fibonacci</h1>
         <form className="flex gap-3" onSubmit={handleSubmit}>
           <Input
-            type="number"
             autoFocus
+            type="number"
             placeholder="Insira um número inteiro"
             value={inputNumber}
             onChange={(e) => setInputNumber(parseInt(e.target.value))}
